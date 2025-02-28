@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div class="container">
+  <h2>Tasks Seite vom Project << {{ project.title }} >></h2>
+  <table>
+    <thead>
+    <tr>
+      <th>ID</th>
+      <th>Titre</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let task of tasks">
+      <td>{{ task.id }}</td>
+      <td>{{ task.title }}</td>
+    </tr>
+    </tbody>
+  </table>
+  <button routerLink="/projects">zurück zu dem Projekt</button>
+</div>
+
+</body>
+</html>
