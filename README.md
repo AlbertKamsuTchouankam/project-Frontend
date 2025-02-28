@@ -4,7 +4,7 @@ This project is a simple **Angular** frontend that interacts with a **Spring Boo
 
 ## 🛠 Prerequisites
 - **Node.js** & **Angular CLI** installed
-- **Backend API** running ([Spring Boot API](https://github.com/AlbertKamsuTchouankam/project-Backend))
+- **Backend API** running ([Spring Boot API](https://github.com/AlbertKamsuTchouankam/Angular-Backend))
 
 ## ⚙️ Installation and Execution
 
